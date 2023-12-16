@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter/Newsletter";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Slider />
+      {/* <Slider /> */}
       <Categories />
       <Products />
       <Newsletter />

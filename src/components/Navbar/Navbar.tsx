@@ -13,6 +13,8 @@ const Navbar = () => {
 
   const onLogin = () => router.push('/login')
 
+  const onHome = () => router.push('/')
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -23,7 +25,7 @@ const Navbar = () => {
             <Search style={{color: "gray", fontSize: 16}} />
           </div>
         </div>
-        <div className={styles.center}>
+        <div className={styles.center} onClick={onHome}>
           <h1 className={styles.logo}>Kuro.</h1>
         </div>
         <div className={styles.right}>
